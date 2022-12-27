@@ -322,7 +322,7 @@ font-size: 0;
   background-position: 12px center;
 }
 
-.uh__blocks:last-child {
+.uh__how-block {
   border-right: 1px solid var(--light-color);
 }
 
