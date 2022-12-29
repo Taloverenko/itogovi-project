@@ -402,10 +402,15 @@ font-size: 0;
   margin-bottom: 30px;
 }
 
+.pod__center {
+  align-items: center;
+}
+
 .pod__list {
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .pod__list-item {
@@ -414,45 +419,56 @@ font-size: 0;
   margin-bottom: 30px;
 }
 
-.pod__right {
+.pod__left {
   width: 112px;
   background-size: cover;
   background-position: center center;
+  justify-content: end;
 }
 
-.pod__right1 {
+.pod__date {
+  padding: 3px 0;
+  text-align: center;
+  display: inline-block;
+  width: 51px;
+  font-size: 10px;
+  line-height: 10px;
+  background-color: var(--light-color);
+}
+
+.pod__left1 {
   background-image: url(../img/4-1.jpg);
 }
 
-.pod__right2 {
+.pod__left2 {
   background-image: url(../img/4-2.jpg);
 }
 
-.pod__right3 {
+.pod__left3 {
   background-image: url(../img/4-3.jpg);
 }
 
-.pod__right4 {
+.pod__left4 {
   background-image: url(../img/4-4.jpg);
 }
 
-.pod__right5 {
+.pod__left5 {
   background-image: url(../img/4-5.jpg);
 }
 
-.pod__right6 {
+.pod__left6 {
   background-image: url(../img/4-6.jpg);
 }
 
-.pod__right7 {
+.pod__left7 {
   background-image: url(../img/4-7.jpg);
 }
 
-.pod__right8 {
+.pod__left8 {
   background-image: url(../img/4-8.jpg);
 }
 
-.pod__left {
+.pod__right {
   width: calc(100% - 112px);
 }
 
@@ -494,9 +510,11 @@ font-size: 0;
 }
 
 .pod__btn {
+  font-weight: 500;
   padding: 25px 54px;
   color: var(--primary);
   border: 2px solid var(--primary);
+  border-radius: 40px;
   max-width: max-content;
 }
 
