@@ -645,10 +645,6 @@ font-size: 0;
 
 .guests {
   background-color: var(--black);
-  color: var(--text_gray);
-}
-
-.guests__heading {
   color: white;
 }
 
@@ -656,11 +652,62 @@ font-size: 0;
   line-height: 150%;
   font-weight: 500;
   margin-bottom: 8px;
+  color: var(--text_gray);
 }
 
 .guests__who {
   width: 75%;
   line-height: 160%;
+  color: var(--text_gray);
+  margin-bottom: 50px;
+}
+
+.guests__info {
+  width: calc(100% - 760px);
+  background-image: url(../img/6-plug.jpg);
+  background-repeat: no-repeat;
+}
+
+.guests__acc {
+  width: 730px;
+  margin-right: 30px;
+}
+
+.accordion__top {
+padding: 23px 0;
+border-bottom: 1px solid white;
+border-top: 1px solid white;
+}
+
+.accordion__btn {
+  align-items: center;
+  width: 100%;
+}
+
+.guests__prof {
+  color: white;
+  margin-right: auto;
+}
+
+.guests__tick {
+  font-size: 0;
+}
+
+.guests__name-list {
+  padding-top: 30px;
+  padding-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.guests__name-list-item {
+  width: 25%;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 16px;
+}
+
+.accordion__bottom {
+  display: none;
 }
 
 /* effects */
