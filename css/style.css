@@ -722,18 +722,32 @@ border-top: 1px solid white;
 
 .promo__left {
   width: 640px;
+  background-image: url(../img/7-radio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+.promo__right {
+  width: calc(100% - 670px);
 }
 
 .promo__heading {
   color: var(--promo);
+  margin-bottom: 19px;
 }
 
 .promo__descr-up {
   color: white;
+  padding-top: 30px;
+  background-image: url(../img/7-wave.png);
+  background-repeat: no-repeat;
 }
 
 .promo__descr-down {
+  color: white;
+}
+
+.promo__price {
   color: white;
 }
 
