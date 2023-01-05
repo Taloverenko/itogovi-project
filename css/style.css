@@ -710,6 +710,33 @@ border-top: 1px solid white;
   display: none;
 }
 
+/* promo */
+
+.promo {
+  background-color: #292E39;
+}
+
+.promo__container {
+  display: flex;
+}
+
+.promo__left {
+  width: 640px;
+
+}
+
+.promo__heading {
+  color: var(--promo);
+}
+
+.promo__descr-up {
+  color: white;
+}
+
+.promo__descr-down {
+  color: white;
+}
+
 /* effects */
 
 .dark-link {
