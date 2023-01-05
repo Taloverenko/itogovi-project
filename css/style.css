@@ -725,6 +725,8 @@ border-top: 1px solid white;
   background-image: url(../img/7-radio.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center center;
+  margin-right: 30px;
 }
 
 .promo__right {
@@ -732,6 +734,7 @@ border-top: 1px solid white;
 }
 
 .promo__heading {
+  line-height: 100%;
   color: var(--promo);
   margin-bottom: 19px;
 }
@@ -741,14 +744,35 @@ border-top: 1px solid white;
   padding-top: 30px;
   background-image: url(../img/7-wave.png);
   background-repeat: no-repeat;
+  font-size: 16px;
+  line-height: 180%;
+  font-weight: 400;
+  margin-bottom: 12px;
 }
 
 .promo__descr-down {
   color: white;
+  font-size: 16px;
+  line-height: 180%;
+  margin-bottom: 30px;
 }
 
 .promo__price {
+  font-size: 30px;
+  line-height: 100%;
   color: white;
+  margin-bottom: 30px;
+}
+
+.promo__btn {
+  padding: 25px 13px 25px 42px;
+  color: var(--promo);
+  border: 2px solid var(--promo);
+  border-radius: 100px;
+  max-width: max-content;
+  background-image: url(../img/7-ya.png);
+  background-repeat: no-repeat;
+  background-position: 13px 23px;
 }
 
 /* effects */
