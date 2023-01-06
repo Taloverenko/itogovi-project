@@ -775,6 +775,22 @@ border-top: 1px solid white;
   background-position: 13px 23px;
 }
 
+/* about */
+
+.about {
+  background-color: var(--black) ;
+  color: var(--text_gray);
+}
+
+.about__title {
+  color: white;
+  line-height: 100%;
+}
+
+.about__greet {
+  line-height: 150%;
+}
+
 /* effects */
 
 .dark-link {
