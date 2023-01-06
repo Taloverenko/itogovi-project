@@ -782,13 +782,58 @@ border-top: 1px solid white;
   color: var(--text_gray);
 }
 
+.about__up {
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.about__up1 {
+  width: calc(60% - 30px)
+}
+
+.about__up2 {
+  width: 40%;
+  background-image: url(../img/8-fig.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .about__title {
   color: white;
   line-height: 100%;
 }
 
 .about__greet {
+  font-weight: 700;
   line-height: 150%;
+  margin-bottom: 8px;
+}
+
+.about__decsr {
+  line-height: 160%;
+}
+
+.about__slider {
+  min-height: 361px;
+}
+
+/* footer */
+
+footer {
+  background-color: #292E39;
+  padding-top: 94px;
+}
+
+.footer__nav-item:not(:last-child) {
+  margin-right: 109px;
+}
+
+.footer__nav-link:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer__nav-link {
+  color: white;
 }
 
 /* effects */
