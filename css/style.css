@@ -824,6 +824,28 @@ footer {
   padding-top: 94px;
 }
 
+.footer__up {
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+
+.footer__down {
+  font-size: 16px;
+  color: var(--text_gray);
+  padding: 20px 0 10px 0;
+  background-image: url(../img/9-wave.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__social-item {
+  margin-right: 20px;
+}
+
 .footer__nav-item:not(:last-child) {
   margin-right: 109px;
 }
@@ -833,6 +855,8 @@ footer {
 }
 
 .footer__nav-link {
+  font-size: 16px;
+  line-height: 100%;
   color: white;
 }
 
