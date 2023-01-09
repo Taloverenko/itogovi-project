@@ -1137,3 +1137,7 @@ footer {
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
+
+.anyblock {
+  width: 100%;
+}
